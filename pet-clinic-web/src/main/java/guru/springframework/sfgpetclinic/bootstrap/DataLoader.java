@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class DataLoader implements CommandLineRunner {
-
+// bootstrap data loader class
     private final OwnerService ownerService;
     private final VetService vetService;
     private final PetTypeService petTypeService;
