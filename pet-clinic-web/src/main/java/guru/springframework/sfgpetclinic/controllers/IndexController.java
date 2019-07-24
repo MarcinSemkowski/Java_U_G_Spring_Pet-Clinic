@@ -12,4 +12,11 @@ public String index(){
 }
 
 
+    @RequestMapping("/oups")
+    public String oupsHandler(){
+        return"notimplemented";
+    }
+
+
+
 }

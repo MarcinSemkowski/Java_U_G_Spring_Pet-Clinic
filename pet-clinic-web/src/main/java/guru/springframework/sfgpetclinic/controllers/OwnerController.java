@@ -4,7 +4,7 @@ import guru.springframework.sfgpetclinic.services.OwnerService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-@RequestMapping("owners")
+@RequestMapping("/owners")
 @Controller
 public class OwnerController {
 
@@ -21,6 +21,12 @@ public class OwnerController {
 
         return "owners/index";
     }
+
+    @RequestMapping("/find")
+    public String findOwners(){
+        return"notimplemented";
+    }
+
 
 
 }
