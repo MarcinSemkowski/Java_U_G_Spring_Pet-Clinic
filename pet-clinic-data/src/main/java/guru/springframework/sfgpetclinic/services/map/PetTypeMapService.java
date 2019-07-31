@@ -1,7 +1,4 @@
 package guru.springframework.sfgpetclinic.services.map;
-
-import com.sun.xml.internal.bind.v2.model.core.ID;
-import guru.springframework.sfgpetclinic.model.Pet;
 import guru.springframework.sfgpetclinic.model.PetType;
 import guru.springframework.sfgpetclinic.services.PetTypeService;
 import org.springframework.context.annotation.Profile;
